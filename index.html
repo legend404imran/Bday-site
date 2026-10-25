@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#050506">
+<meta name="robots" content="noindex">
+<title>29 — HER, A STORY UNFINISHED</title>
+<link rel="stylesheet" href="style.css">
+<noscript><style>.rv,.ln{opacity:1!important}</style></noscript>
+</head>
+<body>
+<canvas id="bg" aria-hidden="true"></canvas>
+<canvas id="fx" aria-hidden="true"></canvas>
+<main>
+
+<section id="intro" class="scene" aria-label="Introduction">
+<p class="eyebrow rv">29 — HER, A STORY UNFINISHED</p>
+<h1 class="silver rv">Some surprises are made for someone special.</h1>
+<button id="open" class="btn rv" type="button">OPEN YOUR SURPRISE</button>
+</section>
+
+<section id="photos" class="scene" aria-labelledby="ph-h">
+<h2 id="ph-h" class="lab rv" tabindex="-1">Two moments</h2>
+<div class="frames">
+<figure class="rv"><button class="frame" data-k="her" type="button" aria-label="View her photograph full screen"><img alt="Her photograph" decoding="async"><span class="ph"></span></button><figcaption class="cap" data-c="name"></figcaption></figure>
+<figure class="rv"><button class="frame" data-k="mine" type="button" aria-label="View the sunset photograph full screen"><img alt="A sunset photograph" decoding="async"><span class="ph"></span></button><figcaption class="cap" data-c="creator"></figcaption></figure>
+</div>
+</section>
+
+<section id="chapters" class="scene" aria-labelledby="ch-h">
+<h2 id="ch-h" class="lab rv">Three chapters</h2>
+<ol id="tl" class="tl"></ol>
+</section>
+
+<section id="birthday" class="scene" aria-labelledby="bd-h">
+<p id="who" class="lab rv"></p>
+<h2 id="bd-h" class="silver big rv"></h2>
+<div id="cake" class="cake rv" role="img" aria-label="A birthday cake with three candles"><div class="candles"><i class="c"><b class="f"></b></i><i class="c"><b class="f"></b></i><i class="c"><b class="f"></b></i></div><div class="tier t2"></div><div class="tier t1"></div><div class="plate"></div></div>
+<p id="count" class="pill rv"></p>
+<button id="wish" class="btn rv" type="button">BLOW OUT THE CANDLES</button>
+<p id="wm" class="hint" aria-live="polite"></p>
+</section>
+
+<section id="letter" class="scene" aria-labelledby="lt-h">
+<h2 id="lt-h" class="lab rv">A letter</h2>
+<button id="env" class="env rv" type="button" aria-expanded="false" aria-controls="paper" aria-label="Open the envelope"><span class="flap"></span><span class="seal"></span></button>
+<p id="hint" class="hint rv">Tap the envelope</p>
+<article id="paper" class="paper glass" tabindex="-1" hidden></article>
+<button id="go" class="link" type="button" hidden>Continue</button>
+</section>
+
+<section id="final" class="scene end" data-step=".9" aria-label="Final message">
+<p id="ft" class="final"></p>
+<p class="sign rv">Made with care.<span id="by"></span></p>
+<button id="replay" class="link rv" type="button">Watch again</button>
+</section>
+
+</main>
+
+<dialog id="view" aria-label="Photograph. Tap anywhere to close."><button class="btn" type="button" aria-label="Close photograph">CLOSE</button><img alt=""></dialog>
+<audio id="aud" loop preload="none"></audio>
+<button id="mus" class="mus" type="button" hidden aria-pressed="false" aria-label="Play music">♪ PLAY</button>
+<script src="script.js"></script>
+</body>
+</html>
